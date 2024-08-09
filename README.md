@@ -8,7 +8,8 @@ Cornell Help Bot is a Spring Boot application that automates responses to prospe
 - Generates a context-aware response using OpenAI's GPT-4 API.
 - Automatically replies to the comment on Reddit.
 - Handles potential issues like deleted comments and network errors.
-
+- Sample Responses:
+  - ![img.png](img.png)
 ## Technologies Used
 
 - **Java 22**
