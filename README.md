@@ -1,6 +1,6 @@
 # CornellHelpBot
 
-Cornell Help Bot is a Spring Boot application that automates responses to prospective Cornell students on the Cornell subreddit. The bot monitors specific threads, fetches the latest top-level comment, and uses OpenAI's GPT-4 API to generate a context-aware reply tailored to admissions and life at Cornell University.
+CornellHelpBot is a Spring Boot application that automates responses to prospective Cornell students on the Cornell subreddit. The bot monitors specific threads, fetches the latest top-level comment, and uses OpenAI's GPT-4 API to generate a context-aware reply tailored to admissions and life at Cornell University.
 
 ## Features
 
