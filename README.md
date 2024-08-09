@@ -23,7 +23,7 @@ Cornell Help Bot is a Spring Boot application that automates responses to prospe
 
 Before running the application, ensure you have the following set up:
 
-1. **Java 11** or higher
+1. **Java**
 2. **Maven** (for building the project)
 3. **Reddit API credentials** (Client ID, Client Secret, Username, Password)
 4. **OpenAI API Key**
