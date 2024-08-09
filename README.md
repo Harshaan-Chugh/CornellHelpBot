@@ -63,10 +63,15 @@ http://localhost:8080/reply-to-comments?submissionId={submission_id}
 
 ### Project Structure and Classes
 `CornellHelpBotApplication`: The entry point for the Spring Boot application.
+
 `CornellHelpBotService`: Handles the core functionality of fetching comments and generating replies.
+
 `RedditService`: Manages interaction with Reddit, fetching the latest top-level comments.
+
 `OpenAIService`: Manages interaction with OpenAI's GPT-4 API to generate responses.
+
 `RedditConfig`: Configures the Reddit client with necessary credentials.
+
 `RedditOpenAIController`: Provides REST endpoints to trigger bot actions.
 
 ### Contributing
