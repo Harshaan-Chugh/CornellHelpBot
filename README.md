@@ -30,14 +30,7 @@ Before running the application, ensure you have the following set up:
 
 ## Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/CornellHelpBot.git
-cd CornellHelpBot
-```
-
-### 2. Set Up Environment Variables
+### 1. Set Up Environment Variables
 Create a `.env` file in the root directory of your project and add the needed environment variables:
 ```
 USERNAME=your_reddit_user
@@ -47,13 +40,13 @@ CLIENT_SECRET=your_reddit_client_secret
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-### 3. Build the Project & Run the Application
+### 2. Build the Project & Run the Application
 ```bash
 mvn clean install
 mvn spring-boot:run
 ```
 
-### 4. Interacting with the Bot
+### 3. Interacting with the Bot
 Once the application is running, you can get the bot to reply to a comment in Cornell's "Chance Me! and Prospective Student Q&A" thread or any post (you can choose) by running the `CornellHelpBotApplication`.
 
 Or you can use a Client URL to trigger it using a REST API:
@@ -73,7 +66,3 @@ http://localhost:8080/reply-to-comments?submissionId={submission_id}
 `RedditConfig`: Configures the Reddit client with necessary credentials.
 
 `RedditOpenAIController`: Provides REST endpoints to trigger bot actions.
-
-### Contributing
-Contributions are welcome.
-Thanks to [JRAW](https://github.com/mattbdean/JRAW) and [OpenAI](https://openai.com/) for providing a Java Wrapper for Reddit's API and the OpenAI API!
