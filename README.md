@@ -10,6 +10,7 @@ CornellHelpBot is a Spring Boot application that automates responses to prospect
 - Handles potential issues like deleted comments and network errors.
 - Sample Responses:
   - ![img.png](img.png)
+
 ## Technologies Used
 
 - **Java 22**
