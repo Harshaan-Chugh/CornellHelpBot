@@ -26,8 +26,8 @@ Before running the application, ensure you have the following set up:
 
 1. **Java**
 2. **Maven** (for building the project)
-3. **Reddit API credentials** (Client ID, Client Secret, Username, Password)
-4. **OpenAI API Key**
+3. **Reddit API**
+4. **OpenAI API**
 
 ## Getting Started
 
